@@ -17,3 +17,4 @@ function incrementCount (){
         console.log(counter)
     }
     }
+    incrementCount()
