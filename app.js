@@ -6,3 +6,14 @@
 //Within the catch, log the error and the value of the counter variable.
 
 let counter = 0;
+
+function incrementCount (){
+    try{
+        console.log(counter)
+        counter++
+        incrementCount()
+    } catch(e){
+        console.error(e)
+        console.log(counter)
+    }
+    }
